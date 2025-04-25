@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Tools</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -40,9 +40,9 @@
                             <input type="number" id="tri-h" oninput="calculateTriangle()" min="0">
                         </div>
                         <div class="results-box">
-                            <p>Perimeter: <span id="tri-perimeter">-</span></p>
-                            <p>Area: <span id="tri-area">-</span></p>
-                            <p>Volume: <span id="tri-volume">-</span></p>
+                            <p>Perimeter = <span id="tri-perimeter">-</span></p>
+                            <p>Area = <span id="tri-area">-</span></p>
+                            <p>Volume = <span id="tri-volume">-</span></p>
                         </div>
                     </div>
                 </div>
@@ -58,9 +58,9 @@
                             <input type="number" id="circ-radius" oninput="calculateCircle()" min="0">
                         </div>
                         <div class="results-box">
-                            <p>Circumference: <span id="circ-circumference">-</span></p>
-                            <p>Area: <span id="circ-area">-</span></p>
-                            <p>Sphere Volume: <span id="circ-volume">-</span></p>
+                            <p>Circumference = <span id="circ-circumference">-</span></p>
+                            <p>Area = <span id="circ-area">-</span></p>
+                            <p>Sphere Volume = <span id="circ-volume">-</span></p>
                         </div>
                     </div>
                 </div>
@@ -80,9 +80,9 @@
                             <input type="number" id="rect-height" oninput="calculateRectangle()" min="0">
                         </div>
                         <div class="results-box">
-                            <p>Perimeter: <span id="rect-perimeter">-</span></p>
-                            <p>Area: <span id="rect-area">-</span></p>
-                            <p>Volume: <span id="rect-volume">-</span></p>
+                            <p>Perimeter = <span id="rect-perimeter">-</span></p>
+                            <p>Area = <span id="rect-area">-</span></p>
+                            <p>Volume = <span id="rect-volume">-</span></p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                             <input type="number" id="cyl-height" oninput="calculateCylinder()" min="0">
                         </div>
                         <div class="results-box">
-                            <p>Volume: <span id="cyl-volume">-</span></p>
+                            <p>Volume = <span id="cyl-volume">-</span></p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                             <input type="number" id="cone-height" oninput="calculateCone()" min="0">
                         </div>
                         <div class="results-box">
-                            <p>Volume: <span id="cone-volume">-</span></p>
+                            <p>Volume = <span id="cone-volume">-</span></p>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                             <input type="number" id="pyr-height" oninput="calculatePyramid()" min="0">
                         </div>
                         <div class="results-box">
-                            <p>Volume: <span id="pyr-volume">-</span></p>
+                            <p>Volume = <span id="pyr-volume">-</span></p>
                         </div>
                     </div>
                 </div>
@@ -156,12 +156,14 @@
                 </div>
                 <button class="keep-ratio-btn" id="keep-ratio-btn" onclick="keepRatio()">Keep Ratio</button>
                 <div class="results-box">
-                    <p>Ratio (A/B): <span id="ratio-result">-</span></p>
+                    <p>Ratio (A/B) = <span id="ratio-result">-</span></p>
                 </div>
             </div>
         </div>
         <div class="main-tab-content" id="sensor">
             <div class="content-vertical">
+                <div class="image-section">
+                </div>
                 <div class="calc-section">
                     <div class="input-group">
                         <label>Width Pixel:</label>
